@@ -109,13 +109,18 @@ var {
 	font-style: normal;
 }
 
+pre {
+	padding: 1rem 1.2rem;
+}
+
 code,
 pre {
 	color: var(--secondary-color);
 	background: var(--muted-color);
 	overflow: auto;
-	padding: 1rem 1.2rem;
 }
+
+
 
 /* Additional Elements */
 
