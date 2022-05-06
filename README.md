@@ -10,5 +10,5 @@ We don't believe in classes or ID's, all our styling is around built-in variable
 If you want to use this CSS directly in your project, include the following:
 
 ```
-<link rel="stylesheet" href="#">
+<link rel="stylesheet" href="https://abbeyyacoe.github.io/slightly-better.css">
 ```
