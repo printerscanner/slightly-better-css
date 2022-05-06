@@ -12,5 +12,8 @@ If you want to use this CSS directly in your project, include the following:
 ```
 <link rel="stylesheet" href="https://abbeyyacoe.github.io/slightly-better.css">
 ```
+
+Or, clone the repo and copy and alter the CSS file however you would like.
+
 ## Preview
 ![Screenshot](screenshot.png)
