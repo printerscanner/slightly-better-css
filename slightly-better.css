@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+	--desktop-font-size: 1rem/1.5;
+	--mobile-font-size: 1rem/1.4;
+    --background-color: #ffffff;
+	--text-color: #000000;
+	--primary-color: #3333ee;
+	--secondary-color: #111199;
+	--tertiary-color: #660099;
+	--muted-color: #f6f6f6;
+	--highlight-color: #efeffe;
+}
+
+/* Typography */
+body {
+	color: var(--text-color);
+	margin: 0 auto;
+	max-width: 75ch;
+	padding: 0 0.5rem;
+    line-height: 1.4;
+}
+
+body,
+input {
+	font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 120%;
+}
+
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+
+
+
+a {
+	color: var(--text-color);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: var(--secondary-color);
+	text-decoration: underline;
+}
+
+time {
+	font-weight: bold;
+}
+
+sub {
+	font-size: 60%;
+	vertical-align: bottom;
+}
+
+small {
+	font-size: 80%;
+}
+
+blockquote,
+q {
+	background: var(--highlight-color);
+	border-left: 8px solid var(--primary-color);
+	display: block;
+	padding: 1rem;
+	border-radius: 4px;
+	;
+
+}
+
+kbd,
+code,
+samp,
+pre,
+var {
+	font-family: Menlo, monospace;
+	font-size: 14px;
+}
+
+var {
+    font-style:normal;
+}
+
+code,
+pre {
+	color: var(--secondary-color);
+	background: var(--muted-color);
+	overflow: auto;
+	padding: 1rem 1.2rem;
+}
+
+/* Additional Elements */
+
+
+hr {
+	background: var(--text-color);
+	border: 0;
+	height: 1px;
+	margin: 4rem 0;
+}
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+figure {
+	display: inline-block;
+	padding: 1rem;
+	width: 100%;
+}
+
+figure img {
+	margin: 0 auto;
+}
+
+figure figcaption {
+	font-size: 80%;
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+table {
+	border: 1px solid var(--primary-color);
+	border-collapse: collapse;
+	table-layout: fixed;
+	text-align: left;
+	width: 100%;
+}
+
+table caption {
+	margin: 1rem 0;
+}
+
+table tbody tr:nth-child(even) {
+	background: var(--highlight-color);
+}
+
+table th {
+	background: var(--primary-color);
+	font-weight: 400;
+	color: var(--background-color);
+}
+
+table th,
+table td {
+	padding: 1rem;
+}
+
+input {
+	appearance: none;
+	border: 1px solid var(--primary-color);
+	background: var(--muted-color);
+	color: var(--text-color);
+	display: block;
+	margin: 0.5rem 0;
+	padding: 0.5rem;
+	font-size: 15px;
+}
+
+input:focus,
+input:active {
+	background-color: var(--muted-color);
+	border-color: var(--primary-color);
+}
+
+button {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px;
+    background-color: var(--text-color);
+    border-radius: 6px;
+    margin-right: 16px;
+    color: var(--background-color);
+    display: inline-block;
+    border: none;
+}
+
+button:hover{
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    transition: .2s;
+}
