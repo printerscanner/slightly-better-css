@@ -62,7 +62,7 @@ h6 {
 
 a {
 	color: var(--text-color);
-	font-weight: 600;
+	font-weight: inherit;
 	text-decoration: none;
 }
 
