@@ -9,8 +9,7 @@
 	--mobile-font-size: 1rem/1.4;
 	--background-color: #ffffff;
 	--text-color: #000000;
-	--primary-color: #3333ee;
-	--secondary-color: #111199;
+	--accent-color: #3333ee;
 	--muted-color: #f6f6f6;
 }
 
@@ -68,7 +67,7 @@ a {
 
 a:hover,
 a:focus {
-	color: var(--secondary-color);
+	color: var(--accent-color);
 	text-decoration: underline;
 }
 
@@ -88,7 +87,7 @@ small {
 blockquote,
 q {
 	background: var(--muted-color);
-	border-left: 8px solid var(--primary-color);
+	border-left: 8px solid var(--accent-color);
 	display: block;
 	padding: 1rem;
 	border-radius: 4px;
@@ -115,7 +114,7 @@ pre {
 
 code,
 pre {
-	color: var(--secondary-color);
+	color: var(--accent-color);
 	background: var(--muted-color);
 	overflow: auto;
 }
@@ -160,7 +159,7 @@ ol {
 }
 
 table {
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--accent-color);
 	border-collapse: collapse;
 	table-layout: fixed;
 	text-align: left;
@@ -176,7 +175,7 @@ table tbody tr:nth-child(even) {
 }
 
 table th {
-	background: var(--primary-color);
+	background: var(--accent-color);
 	font-weight: 400;
 	color: var(--background-color);
 }
@@ -188,7 +187,7 @@ table td {
 
 input {
 	appearance: none;
-	border: 1px solid var(--primary-color);
+	border: 1px solid var(--accent-color);
 	background: var(--muted-color);
 	color: var(--text-color);
 	display: block;
@@ -200,7 +199,7 @@ input {
 input:focus,
 input:active {
 	background-color: var(--muted-color);
-	border-color: var(--primary-color);
+	border-color: var(--accent-color);
 }
 
 button {
@@ -208,7 +207,7 @@ button {
 	font-weight: 700;
 	font-size: 16px;
 	padding: 16px;
-	background-color: var(--text-color);
+	background-color: var(--accent-color);
 	border-radius: 6px;
 	margin: 10px 10px 10px 0px;
 	color: var(--background-color);
@@ -218,6 +217,6 @@ button {
 
 button:hover {
 	color: var(--background-color);
-	background-color: var(--primary-color);
+	background-color: var(--text-color);
 	transition: .2s;
 }
