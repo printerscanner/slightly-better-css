@@ -11,18 +11,18 @@
 	--text-color: #000000;
 	--primary-color: #3333ee;
 	--secondary-color: #111199;
-	--tertiary-color: #660099;
 	--muted-color: #f6f6f6;
-	--highlight-color: #efeffe;
 }
 
 /* Typography */
 body {
 	color: var(--text-color);
+    background-color: var(--background-color);
 	margin: 0 auto;
 	max-width: 75ch;
 	padding: 0 0.5rem;
 	line-height: 1.4;
+    font-size:
 }
 
 body,
@@ -87,7 +87,7 @@ small {
 
 blockquote,
 q {
-	background: var(--highlight-color);
+	background: var(--muted-color);
 	border-left: 8px solid var(--primary-color);
 	display: block;
 	padding: 1rem;
@@ -172,7 +172,7 @@ table caption {
 }
 
 table tbody tr:nth-child(even) {
-	background: var(--highlight-color);
+	background: var(--muted-color);
 }
 
 table th {
@@ -210,7 +210,7 @@ button {
 	padding: 16px;
 	background-color: var(--text-color);
 	border-radius: 6px;
-	margin-right: 16px;
+	margin: 10px 10px 10px 0px;
 	color: var(--background-color);
 	display: inline-block;
 	border: none;
