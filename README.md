@@ -17,3 +17,9 @@ Or, clone the repo and copy and alter the CSS file however you would like.
 
 ## Preview
 ![Screenshot](screenshot.png)
+
+## Contributing
+If you'd like to contribute to this repository feel free to fork/submit a pull request, and if you have any suggestions feel free to email me at abbeyyacoe@gmail.com.
+
+## License
+The theme is available as open source under the terms of the MIT License.%
