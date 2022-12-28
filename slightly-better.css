@@ -135,7 +135,7 @@ hr {
 img {
 	display: block;
 	height: auto;
-	max-width: 100%;
+	max-width: 75%;
 }
 
 figure {
@@ -155,7 +155,7 @@ figure figcaption {
 }
 
 footer, header {
-	margin: 5rem 0;
+	margin: 3rem 0;
 }
 
 
