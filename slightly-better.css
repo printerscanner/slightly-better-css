@@ -24,7 +24,7 @@ body {
 	max-width: 75ch;
 	padding: 0 0.5rem;
 	line-height: 1.4;
-	font-size: large;
+	font-size: 110%;
 }
 
 body,
@@ -43,15 +43,15 @@ h6 {
 }
 
 h1 {
-	font-size: xx-large;
+	font-size: 250%;
 }
 
 h2 {
-	font-size: x-large;
+	font-size: 200%;
 }
 
 h3 {
-	font-size: larger;
+	font-size: 150%;
 }
 
 h4,
@@ -102,7 +102,7 @@ samp,
 pre,
 var {
 	font-family: Menlo, monospace;
-	font-size: 14px;
+	font-size: 75%;
 }
 
 var {
@@ -139,9 +139,9 @@ img {
 }
 
 figure {
-	display: inline-block;
 	padding: 1rem;
 	width: 100%;
+	margin: auto;
 }
 
 figure img {
@@ -203,7 +203,7 @@ input {
 	display: block;
 	margin: 0.5rem 0;
 	padding: 0.5rem;
-	font-size: 15px;
+	font-size: 80%;
 }
 
 input:focus,
@@ -215,7 +215,7 @@ input:active {
 button {
 	text-decoration: none;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 100%;
 	padding: 16px;
 	background-color: var(--accent-color);
 	border-radius: 6px;
