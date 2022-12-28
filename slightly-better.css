@@ -1,9 +1,6 @@
 /*
-
 Slightly Better CSS was created by printerscanner at https://github.com/printerscanner/slightly-better-css
-
 If you like the project, feel free to give it a star.
-
 */
 
 * {
@@ -13,8 +10,6 @@ If you like the project, feel free to give it a star.
 /* Variables */
 
 :root {
-	--desktop-font-size: 1rem/1.5;
-	--mobile-font-size: 1rem/1.4;
 	--background-color: #ffffff;
 	--text-color: #000000;
 	--accent-color: #3333ee;
@@ -24,12 +19,12 @@ If you like the project, feel free to give it a star.
 /* Typography */
 body {
 	color: var(--text-color);
-    background-color: var(--background-color);
+	background-color: var(--background-color);
 	margin: 0 auto;
 	max-width: 75ch;
 	padding: 0 0.5rem;
 	line-height: 1.4;
-    font-size:
+	font-size: large;
 }
 
 body,
@@ -48,15 +43,15 @@ h6 {
 }
 
 h1 {
-	font-size: 200%;
+	font-size: xx-large;
 }
 
 h2 {
-	font-size: 150%;
+	font-size: x-large;
 }
 
 h3 {
-	font-size: 120%;
+	font-size: larger;
 }
 
 h4,
@@ -70,7 +65,6 @@ h6 {
 a {
 	color: var(--text-color);
 	font-weight: inherit;
-	text-decoration: none;
 }
 
 a:hover,
@@ -99,8 +93,7 @@ q {
 	display: block;
 	padding: 1rem;
 	border-radius: 4px;
-	;
-
+	margin: 2rem 0;
 }
 
 kbd,
@@ -161,9 +154,18 @@ figure figcaption {
 	text-align: center;
 }
 
+footer, header {
+	margin: 5rem 0;
+}
+
+
 ul,
 ol {
-	list-style-type: none;
+	line-height: 2;
+}
+
+section {
+	margin: 5rem 0;
 }
 
 table {
