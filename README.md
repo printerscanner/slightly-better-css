@@ -13,10 +13,10 @@ If you want to use this CSS directly in your project, include the following:
 <link rel="stylesheet" href="https://printerscanner.github.io/slightly-better-css/slightly-better.css">
 ```
 
-Or, clone the repo and copy and alter the CSS file however you would like.
+Or, clone the repo and copy and alter the CSS file however you like.
 
 ## Customizing
-If you like slightly better css but what a custom look, you can copy and paste these variables into your own stylesheet and swap your values.
+If you like slightly better css but want a custom look, you can copy and paste these variables into your own stylesheet and swap your values.
 
 ```css
 	:root {
