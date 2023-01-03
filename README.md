@@ -29,7 +29,7 @@ If you like slightly better css but want a custom look, you can copy and paste t
 }
 
 ```
-
+Do you want a custom site but don't have the design chops? Visit our [automatic brand generator](https://printerscanner.github.io/automatic-brand-generator/) to have a brand made for you.
 ## Preview
 ![Screenshot](screenshot.png)
 
