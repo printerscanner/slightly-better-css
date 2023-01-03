@@ -14,14 +14,13 @@ If you like the project, feel free to give it a star.
 	--text-color: #000000;
 	--accent-color: #3333ee;
 	--muted-color: #f6f6f6;
+	--font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 
 /* Typography */
 body {
 	color: var(--text-color);
 	background-color: var(--background-color);
-	margin: 0 auto;
-	max-width: 75ch;
 	padding: 0 0.5rem;
 	line-height: 1.4;
 	font-size: 110%;
@@ -29,7 +28,7 @@ body {
 
 body,
 input {
-	font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+	font-family: var(--font-family);
 }
 
 h1,
@@ -47,7 +46,7 @@ h1 {
 }
 
 h2 {
-	font-size: 200%;
+	font-size: 175%;
 }
 
 h3 {
@@ -165,7 +164,8 @@ ol {
 }
 
 section {
-	margin: 5rem 0;
+	margin: 3rem auto;
+	max-width: 75ch;
 }
 
 table {
