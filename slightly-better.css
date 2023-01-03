@@ -10,21 +10,23 @@ If you like the project, feel free to give it a star.
 /* Variables */
 
 :root {
-	--background-color: #ffffff;
-	--text-color: #000000;
 	--accent-color: #3333ee;
-	--muted-color: #f6f6f6;
+	--background-color: #ffffff;
 	--font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 	--font-size: 110%;
+	--muted-color: #f6f6f6;
+	--text-color: #000000;
 }
 
 /* Typography */
 body {
-	color: var(--text-color);
 	background-color: var(--background-color);
-	padding: 0 0.5rem;
-	line-height: 1.4;
+	color: var(--text-color);
 	font-size: var(--font-size);
+	line-height: 1.4;
+	margin: 3rem 2rem;
+	padding: 0 0.5rem;
+	word-break: break-word;
 }
 
 body,
