@@ -160,6 +160,10 @@ footer, header {
 	margin: 3rem 0;
 }
 
+main {
+	max-width: 75ch;
+	margin: auto;
+}
 
 ul,
 ol {
@@ -167,8 +171,7 @@ ol {
 }
 
 section {
-	margin: 3rem auto;
-	max-width: 75ch;
+	margin: 5rem 0;
 }
 
 table {
