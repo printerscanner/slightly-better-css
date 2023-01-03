@@ -19,14 +19,14 @@ Or, clone the repo and copy and alter the CSS file however you like.
 If you like slightly better css but want a custom look, you can copy and paste these variables into your own stylesheet and swap your values.
 
 ```css
-	:root {
-		--background-color: #c3c7cf;
-		--text-color: #000000;
-		--accent-color: #00000f;
-		--muted-color: #f6f6f6;
-		--font-family: 'Neue Montreal', monospace;
-		--font-size: larger;
-	}
+:root {
+	--background-color: #c3c7cf;
+	--text-color: #000000;
+	--accent-color: #00000f;
+	--muted-color: #f6f6f6;
+	--font-family: 'Neue Montreal', monospace;
+	--font-size: larger;
+}
 
 ```
 
