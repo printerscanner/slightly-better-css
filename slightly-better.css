@@ -15,6 +15,7 @@ If you like the project, feel free to give it a star.
 	--accent-color: #3333ee;
 	--muted-color: #f6f6f6;
 	--font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+	--font-size: 110%;
 }
 
 /* Typography */
@@ -23,7 +24,7 @@ body {
 	background-color: var(--background-color);
 	padding: 0 0.5rem;
 	line-height: 1.4;
-	font-size: 110%;
+	font-size: var(--font-size);
 }
 
 body,
