@@ -224,16 +224,15 @@ input:active {
 }
 
 button {
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 100%;
-	padding: 16px;
-	background-color: var(--accent-color);
-	border-radius: 6px;
-	margin: 10px 10px 10px 0px;
-	color: var(--text-color);
-	display: inline-block;
-	border: none;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    margin: 10px 10px 10px 0px;
+    color: var(--background-color);
+    display: inline-block;
+    border: none;
 }
 
 button:hover {
