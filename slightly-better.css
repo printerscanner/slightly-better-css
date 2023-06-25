@@ -229,7 +229,6 @@ button {
     padding: 10px;
     background-color: var(--accent-color);
     border-radius: 4px;
-    margin: 10px 10px 10px 0px;
     color: var(--background-color);
     display: inline-block;
     border: none;
