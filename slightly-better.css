@@ -25,6 +25,7 @@ body {
 	font-size: var(--font-size);
 	line-height: 1.4;
 	word-break: break-word;
+	margin: 0;
 }
 
 body,
@@ -116,8 +117,12 @@ pre {
 code,
 pre {
 	color: var(--accent-color);
-	background: var(--muted-color);
 	overflow: auto;
+	border-radius: 5px;
+}
+
+code {
+	background-color: var(--muted-color);
 }
 
 
@@ -208,6 +213,8 @@ input {
 	margin: 0.5rem 0;
 	padding: 0.5rem;
 	font-size: 80%;
+	border: none;
+    border-radius: 5px;
 }
 
 input:focus,
@@ -224,7 +231,7 @@ button {
 	background-color: var(--accent-color);
 	border-radius: 6px;
 	margin: 10px 10px 10px 0px;
-	color: var(--background-color);
+	color: var(--text-color);
 	display: inline-block;
 	border: none;
 }
