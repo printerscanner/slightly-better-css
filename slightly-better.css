@@ -159,22 +159,19 @@ figure figcaption {
 	text-align: center;
 }
 
-footer, header {
+footer, header,section {
 	margin: 3rem 0;
+	padding: 20px;
 }
 
 main {
-	max-width: 75ch;
+	max-width: 750px;
 	margin: auto;
 }
 
 ul,
 ol {
 	line-height: 2;
-}
-
-section {
-	margin: 5rem 0;
 }
 
 table {
