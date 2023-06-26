@@ -117,6 +117,7 @@ pre {
 code,
 pre {
 	color: var(--accent-color);
+	color: var(--muted-color);
 	overflow: auto;
 	border-radius: 5px;
 }
@@ -160,8 +161,7 @@ figure figcaption {
 }
 
 footer, header,section {
-	margin: 3rem 0;
-	padding: 20px;
+	padding: 30px;
 }
 
 main {
