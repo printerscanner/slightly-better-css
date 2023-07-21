@@ -116,9 +116,9 @@ pre {
 
 code,
 pre {
-	color: var(--accent-color);
-	color: var(--muted-color);
 	overflow: auto;
+	color: var(--accent-color);
+    padding: 10px;
 	border-radius: 5px;
 }
 
