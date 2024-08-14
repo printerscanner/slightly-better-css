@@ -116,7 +116,7 @@ footer, header, section {
     padding: 30px;
 }
 
-main {
+main, header, footer {
     max-width: 750px;
     margin: auto;
     padding: 0 15px; 
