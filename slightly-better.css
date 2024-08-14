@@ -67,7 +67,7 @@ blockquote, q {
 
 code, kbd, samp, pre, var {
     font-family: Menlo, monospace;
-    font-size: 0.75em;
+    font-size: 0.9em;
 }
 
 var { font-style: normal; }
