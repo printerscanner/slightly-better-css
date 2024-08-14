@@ -1,238 +1,186 @@
-/*
-Slightly Better CSS was created by printerscanner at https://github.com/printerscanner/slightly-better-css
-If you like the project, feel free to give it a star.
-*/
+/* Slightly Better CSS was created by printerscanner at https://github.com/printerscanner/slightly-better-css */
+/* If you like the project, feel free to give it a star. */
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Variables */
-
 :root {
-	--accent-color: #3333ee;
-	--background-color: #ffffff;
-	--font-family: system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-	--font-size: 110%;
-	--muted-color: #f6f6f6;
-	--text-color: #000000;
+    --accent-color: #3333ee;
+    --background-color: #ffffff;
+    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    --font-size: 110%;
+    --muted-color: #f6f6f6;
+    --text-color: #202020;
 }
 
 /* Typography */
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
-	font-size: var(--font-size);
-	line-height: 1.4;
-	word-break: break-word;
-	margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: 1.4;
+    margin: 0;
+    word-break: break-word;
+    font-family: var(--font-family);
 }
 
-body,
-input {
-	font-family: var(--font-family);
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    line-height: 1.2;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: 800;
-	line-height: 1.2;
-}
-
-h1 {
-	font-size: 250%;
-}
-
-h2 {
-	font-size: 175%;
-}
-
-h3 {
-	font-size: 150%;
-}
-
-h4,
-h5,
-h6 {
-	font-size: 100%;
-}
-
-
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4, h5, h6 { font-size: 1em; }
 
 a {
-	color: var(--text-color);
-	font-weight: inherit;
+    color: var(--text-color);
+    font-weight: inherit;
+    text-decoration: none;
 }
 
-a:hover,
-a:focus {
-	color: var(--accent-color);
-	text-decoration: underline;
+a:hover, a:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
 }
 
-time {
-	font-weight: bold;
-}
+time { font-weight: bold; }
 
 sub {
-	font-size: 60%;
-	vertical-align: bottom;
+    font-size: 0.6em;
+    vertical-align: bottom;
 }
 
-small {
-	font-size: 80%;
+small { font-size: 0.8em; }
+
+blockquote, q {
+    background: var(--muted-color);
+    border-left: 8px solid var(--accent-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 2rem 0;
+    display: block;
 }
 
-blockquote,
-q {
-	background: var(--muted-color);
-	border-left: 8px solid var(--accent-color);
-	display: block;
-	padding: 1rem;
-	border-radius: 4px;
-	margin: 2rem 0;
+code, kbd, samp, pre, var {
+    font-family: Menlo, monospace;
+    font-size: 0.75em;
 }
 
-kbd,
-code,
-samp,
-pre,
-var {
-	font-family: Menlo, monospace;
-	font-size: 75%;
-}
-
-var {
-	font-style: normal;
-}
+var { font-style: normal; }
 
 pre {
-	padding: 1rem 1.2rem;
-}
-
-code,
-pre {
-	overflow: auto;
-	color: var(--accent-color);
-    padding: 10px;
-	border-radius: 5px;
-}
-
-code {
-	background-color: var(--muted-color);
-}
-
-
-
-/* Additional Elements */
-
-
-hr {
-	background: var(--text-color);
-	border: 0;
-	height: 1px;
-	margin: 4rem 0;
-}
-
-img {
-	display: block;
-	height: auto;
-	max-width: 75%;
-}
-
-figure {
-	padding: 1rem;
-	width: 100%;
-	margin: auto;
-}
-
-figure img {
-	margin: 0 auto;
-}
-
-figure figcaption {
-	font-size: 80%;
-	margin-top: 0.5rem;
-	text-align: center;
-}
-
-footer, header,section {
-	padding: 30px;
-}
-
-main {
-	max-width: 750px;
-	margin: auto;
-}
-
-ul,
-ol {
-	line-height: 2;
-}
-
-table {
-	border: 1px solid var(--accent-color);
-	border-collapse: collapse;
-	table-layout: fixed;
-	text-align: left;
-	width: 100%;
-}
-
-table caption {
-	margin: 1rem 0;
-}
-
-table tbody tr:nth-child(even) {
-	background: var(--muted-color);
-}
-
-table th {
-	background: var(--accent-color);
-	font-weight: 400;
-	color: var(--background-color);
-}
-
-table th,
-table td {
-	padding: 1rem;
-}
-
-input {
-	appearance: none;
-	border: 1px solid var(--accent-color);
-	background: var(--muted-color);
-	color: var(--text-color);
-	display: block;
-	margin: 0.5rem 0;
-	padding: 0.5rem;
-	font-size: 80%;
-	border: none;
+    padding: 1rem;
+    overflow: auto;
+    background-color: var(--muted-color);
     border-radius: 5px;
 }
 
-input:focus,
-input:active {
-	background-color: var(--muted-color);
-	border-color: var(--accent-color);
+code {
+    background-color: var(--muted-color);
+    padding: 0.25rem;
+    border-radius: 5px;
+    color: var(--accent-color);
+}
+
+/* Additional Elements */
+hr {
+    background: var(--text-color);
+    border: 0;
+    height: 1px;
+    margin: 4rem 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+figure figcaption {
+    font-size: 0.8em;
+    margin-top: 0.5rem;
+}
+
+footer, header, section {
+    padding: 30px;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+    padding: 0 15px; 
+}
+
+ul, ol {
+    line-height: 2;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid var(--accent-color);
+}
+
+table caption {
+    margin: 1rem 0;
+}
+
+table tbody tr:nth-child(even) {
+    background: var(--muted-color);
+}
+
+table th, table td {
+    padding: 1rem;
+    border: 1px solid var(--accent-color); /* Ensure all cells have consistent borders */
+}
+
+table th {
+    background: var(--accent-color);
+    color: var(--background-color);
+    font-weight: 400;
+}
+
+input {
+    appearance: none;
+    background: var(--muted-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 0.8em;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+input:focus, input:active {
+    outline: none;
+    border-color: var(--accent-color);
 }
 
 button {
-    text-decoration: none;
-    font-weight: 700;
-    padding: 10px;
+    padding: 10px 15px;
     background-color: var(--accent-color);
     border-radius: 4px;
     color: var(--background-color);
-    display: inline-block;
     border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 button:hover {
-	color: var(--background-color);
-	background-color: var(--text-color);
-	transition: .2s;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
