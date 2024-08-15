@@ -1,186 +1,185 @@
-/* Slightly Better CSS was created by printerscanner at https://github.com/printerscanner/slightly-better-css */
-/* If you like the project, feel free to give it a star. */
+/* Slightly Better CSS */
+/* By printerscanner https://github.com/printerscanner/slightly-better-css */
 
-* {
-    box-sizing: border-box;
-}
 
-/* Variables */
 :root {
-    --accent-color: #3333ee;
-    --background-color: #ffffff;
-    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    --font-size: 110%;
-    --muted-color: #f6f6f6;
-    --text-color: #202020;
+  --color-background: #fff;
+  --color-accent: blue;
+  --color-muted: #eee;
+  --text-color: #111;
+  --font: 400 110%/1.2 Helvetica, sans-serif
 }
 
-/* Typography */
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-size: var(--font-size);
-    line-height: 1.4;
-    margin: 0;
-    word-break: break-word;
-    font-family: var(--font-family);
+  background: var(--color-background);
+  color: var(--text-color);
+  font: var(--font)
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 800;
-    line-height: 1.2;
+  font-weight: 800
 }
 
-h1 { font-size: 2.5em; }
-h2 { font-size: 1.75em; }
-h3 { font-size: 1.5em; }
-h4, h5, h6 { font-size: 1em; }
+h1 {
+  font-size: 2.2em
+}
+
+h2 {
+  font-size: 1.7em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+h4, h5, h6 {
+  font-size: 1em
+}
 
 a {
-    color: var(--text-color);
-    font-weight: inherit;
-    text-decoration: none;
+  text-decoration: none
 }
 
-a:hover, a:focus {
-    color: var(--accent-color);
-    text-decoration: underline;
+a:hover, a:focus, a:visited {
+  color: var(--color-accent);
+  text-decoration: underline
 }
 
-time { font-weight: bold; }
+time {
+  font-weight: bold
+}
 
 sub {
-    font-size: 0.6em;
-    vertical-align: bottom;
+  font-size: 0.6em;
+  vertical-align: bottom
 }
 
-small { font-size: 0.8em; }
+small {
+  font-size: 0.8em
+}
 
 blockquote, q {
-    background: var(--muted-color);
-    border-left: 8px solid var(--accent-color);
-    padding: 1rem;
-    border-radius: 4px;
-    margin: 2rem 0;
-    display: block;
+  display: block;
+  padding: 1em;
+  border-left: 8px solid var(--color-accent);
+  margin: 2em 0;
+  background: var(--color-muted);
+  border-radius: 4px;
 }
 
 code, kbd, samp, pre, var {
-    font-family: Menlo, monospace;
-    font-size: 0.9em;
+  font-family: Menlo, monospace;
+  font-size: 0.9em;
+  font-style: normal
 }
 
-var { font-style: normal; }
-
 pre {
-    padding: 1rem;
-    overflow: auto;
-    background-color: var(--muted-color);
-    border-radius: 5px;
+  overflow: auto;
+  padding: 1em;
+  background: var(--color-muted);
+  border-radius: 5px
 }
 
 code {
-    background-color: var(--muted-color);
-    padding: 0.25rem;
-    border-radius: 5px;
-    color: var(--accent-color);
+  padding: 0.25em;
+  background: var(--color-muted);
+  color: var(--color-accent);
+  border-radius: 5px
 }
 
-/* Additional Elements */
 hr {
-    background: var(--text-color);
-    border: 0;
-    height: 1px;
-    margin: 4rem 0;
+  height: 1px;
+  border: 0;
+  margin: 4em 0;
+  background: var(--text-color)
 }
 
 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto
 }
 
 figure {
-    margin: 2rem 0;
-    padding: 1rem;
-    text-align: center;
+  padding: 1em;
+  margin: 2em 0;
+  text-align: center
 }
 
 figure figcaption {
-    font-size: 0.8em;
-    margin-top: 0.5rem;
+  margin-top: 0.5em;
+  font-size: 0.8em
 }
 
 footer, header, section {
-    padding: 30px;
+  padding: 30px
 }
 
 main, header, footer {
-    max-width: 750px;
-    margin: auto;
-    padding: 0 15px; 
+  max-width: 40em;
+  padding: 0 15px;
+  margin: auto
 }
 
 ul, ol {
-    line-height: 2;
-    padding-left: 20px;
+  padding-left: 20px;
+  line-height: 2
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    border: 1px solid var(--accent-color);
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--color-accent)
 }
 
 table caption {
-    margin: 1rem 0;
+  margin: 1em 0
 }
 
 table tbody tr:nth-child(even) {
-    background: var(--muted-color);
+  background: var(--color-muted)
 }
 
 table th, table td {
-    padding: 1rem;
-    border: 1px solid var(--accent-color); /* Ensure all cells have consistent borders */
+  padding: 1em;
+  border: 1px solid var(--color-accent)
 }
 
 table th {
-    background: var(--accent-color);
-    color: var(--background-color);
-    font-weight: 400;
+  background: var(--color-accent);
+  color: var(--color-background);
+  font-weight: 400
 }
 
 input {
-    appearance: none;
-    background: var(--muted-color);
-    color: var(--text-color);
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    font-size: 0.8em;
-    border: 1px solid var(--accent-color);
-    border-radius: 5px;
+  padding: 0.5em;
+  border: 1px solid var(--color-accent);
+  margin: 0.5em 0;
+  background: var(--color-muted);
+  font-size: 0.8em;
+  appearance: none;
+  border-radius: 5px
 }
 
 input:focus, input:active {
-    outline: none;
-    border-color: var(--accent-color);
+  outline: none;
+  border-color: var(--color-accent)
 }
 
 button {
-    padding: 10px 15px;
-    background-color: var(--accent-color);
-    border-radius: 4px;
-    color: var(--background-color);
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+  padding: 10px 15px;
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-background);
+  font-size: 0.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease
 }
 
 button:hover {
-    background-color: var(--text-color);
-    color: var(--background-color);
+  background: var(--text-color);
+  color: var(--color-background)
 }
