@@ -1,0 +1,35 @@
+{
+  "name": "slightly-better-css",
+  "version": "1.0.0",
+  "description": "A webpage without any CSS is slightly too ugly, libraries like Bootstrap are way too heavy, and you have too much taste to use the other CSS libraries out there. Slightly Better CSS is a small, simple stylesheet for any project that needs to look just a little bit better.",
+  "main": "dist/slightly-better.min.css",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "css",
+    "library",
+    "design",
+    "stylesheet"
+  ],
+  "author": "printer_scanner",
+  "url": "https://printerscanner.net",
+  "license": "MIT",
+  "homepage": "https://printerscanner.github.io/slightly-better-css/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/printerscanner/slightly-better-css.git"
+  },
+  "scripts": {
+    "build:css": "postcss src/slightly-better.css -o dist/slightly-better.css && postcss src/slightly-better.css -o dist/slightly-better.min.css --env production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
