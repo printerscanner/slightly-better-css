@@ -22,7 +22,7 @@ Alternatively, use a CDN:
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/slightly-better-css/slightly-better.css"
+  href="https://unpkg.com/browse/slightly-better-css@1.0.1/dist/slightly-better.min.css"
 />
 ```
 
@@ -31,7 +31,7 @@ Alternatively, use a CDN:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/slightly-better-css/slightly-better.css"
+  href="https://cdn.jsdelivr.net/npm/slightly-better-css@1.0.1/dist/slightly-better.min.css"
 />
 ```
 
