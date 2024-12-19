@@ -1,6 +1,6 @@
 {
   "name": "slightly-better-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpage without any CSS is slightly too ugly, libraries like Bootstrap are way too heavy, and you have too much taste to use the other CSS libraries out there. Slightly Better CSS is a small, simple stylesheet for any project that needs to look just a little bit better.",
   "main": "dist/slightly-better.min.css",
   "files": [
