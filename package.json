@@ -21,7 +21,7 @@
     "url": "https://github.com/printerscanner/slightly-better-css.git"
   },
   "scripts": {
-    "build:css": "postcss src/slightly-better.css -o dist/slightly-better.css && postcss src/slightly-better.css -o dist/slightly-better.min.css --env production"
+    "build:css": "postcss slightly-better.css -o dist/slightly-better.min.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
