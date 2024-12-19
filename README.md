@@ -4,6 +4,11 @@ A webpage without any CSS is slightly too ugly, libraries like Bootstrap are way
 
 We don't believe in classes or ID's, all our styling is around built-in variables, so you can write simple HTML. At only 7KB, Slightly Better CSS won't weight down your application, and is easily extendable.
 
+
+[![NPM version](https://img.shields.io/npm/v/slightly-better-css.svg)](https://www.npmjs.org/package/slightly-better-css)
+[![npm](https://img.shields.io/npm/dt/slightly-better-css.svg)](http://www.npmtrends.com/slightly-better-css)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+
 ## 📦 Installation
 
 Include the stylesheet in your project directly using the following link:
