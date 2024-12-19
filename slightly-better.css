@@ -12,12 +12,14 @@
 :root {
   --accent-color: #3333ee;
   --background-color: #ffffff;
+  --border-radius: 0.25rem;
   --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     sans-serif;
   --font-size: 110%;
   --muted-color: #f6f6f6;
+  --page-width: 47rem;
   --text-color: #202020;
-  --border-radius: 0.25rem;
+
   --transition-speed: 0.2s;
   --button-padding: 0.625rem 0.9375rem;
 }
@@ -36,10 +38,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #66ccff;
-    --background-color: #121212;
-    --text-color: #f0f0f0;
-    --muted-color: #333333;
+    --accent-color: #c4c8b1;
+    --background-color: #17161a;
+    --text-color: #ecdfcc;
+    --muted-color: #3c3d37;
   }
 }
 
@@ -184,9 +186,8 @@ section {
 main,
 header,
 footer {
-  max-width: 46.875rem;
   margin: auto;
-  padding: 0 0.9375rem;
+  width: var(--page-width);
 }
 
 ul,
